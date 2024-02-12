@@ -1,0 +1,97 @@
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: F0F2F5;
+    font-family:  'Nunito', sans-serif;
+}  
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin:250px;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px lightgray ;
+    width: 350px;
+    height: 300px;
+}
+
+ .text h1{
+    color: 1877F2;
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 10px;
+} 
+
+.text p{
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+.login-box input{
+    border: 1px solid ;
+    border-color: lightgray;
+    border-radius:10px;
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login-button{
+    text-align: center;
+    border: none ;
+    border-radius:10px;
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    background-color: 1877F2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-button:hover{
+    background-color: #0d65d9;
+}
+
+.forgot-pwd{
+    text-decoration: none;
+    margin-left: 118px;
+    margin-bottom: 10px;
+}
+
+
+.forgot-pwd:hover{
+    text-decoration: underline;
+    
+}
+
+.new-acc{
+    background-color: 42B72A ;
+    text-align: center;
+    border: none ;
+    border-radius:10px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
+.new-acc:hover {
+    background: #3ba626;
+  }
